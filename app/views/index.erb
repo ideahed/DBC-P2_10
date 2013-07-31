@@ -1,0 +1,8 @@
+<div class="container">
+  <h1>Instagrams By Dev Bootcamp</h1>
+  <p>LOVE THE GEO!</p>
+
+ <% @recent.each do |recent| %>
+    <p><%= recent.text %> - <%= recent.created_at %></p>
+  <% end %>
+</div>

@@ -1,0 +1,9 @@
+<div class="container">
+  <h1>Instagrams By Dev Bootcamp</h1>
+  <p>LOVE THE FILTERS!</p>
+
+ <% @filters.each do |filter| %>
+    <p><%= instagram.text %> - <%= instagram.created_at %></p>
+    <img src="<%= url %>">
+  <% end %>
+

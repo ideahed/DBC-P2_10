@@ -1,0 +1,9 @@
+<div class="container">
+  <h1>Instagrams By Dev Bootcamp</h1>
+  <p>LOVE THE GEO!</p>
+
+ <% @geos.each do |geo| %>
+    <p><%= geo.text %> - <%= geo.created_at %></p>
+    <img src="<%= url %>">
+  <% end %>
+</div>
